@@ -11,7 +11,7 @@ public class Main
         double salesTax = 0.05;
         double purchasePrice = 23.49;
         double taxCost = 0;
-        System.out.println("What is the dollar price of your purchase?");
+        System.out.println("What is the dollar price of your purchase?"); //input would normally go after this
         taxCost = purchasePrice * salesTax;
         System.out.println("The cost of tax on your $" + purchasePrice + " item is $" + taxCost);
     }
